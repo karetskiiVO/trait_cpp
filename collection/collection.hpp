@@ -17,8 +17,8 @@ namespace coll {
     };
 
     template <class _Ty, class _Alloc = ::std::allocator<_Ty>>
-    using vector = Collection<std::vector<_Ty, _Alloc>>;
+    using Vec = Collection<std::vector<_Ty, _Alloc>>;
 
     template <class _Kty, class _Pr = ::std::less<_Kty>, class _Alloc = ::std::allocator<_Kty>>
-    using set = std::set<_Kty, _pr, _Alloc>;
+    using Set = std::set<_Kty, _pr, _Alloc>;
 };
